@@ -8,7 +8,7 @@
 import vuetify from './vuetify'
 import router from '../router'
 import store from '@/store/store'
-import { SchedulePlugin } from '@syncfusion/ej2-vue-schedule';
+
 
 
 export function registerPlugins (app) {
@@ -16,5 +16,4 @@ export function registerPlugins (app) {
     .use(vuetify)
     .use(router)
     .use(store)
-    .use(ScedulePlugin)
 }
